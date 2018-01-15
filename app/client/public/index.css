@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#componentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+#componentContainer>* {
+  flex: 1;
+}
+
+#convertToCSVPreUploadContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 2vw 0 2vw;
+  border: 2px orange solid;
+  flex: 1;
+}
+
+#convertToCSVPostUploadContainer {
+  flex: 1;
+}
+
+#convertToCSVParentContainer {
+  /*border: 2px blue solid;*/
+  display: flex;
+}
+
+#CSVOutputList {
+  border: 2px red solid;
+}
+
+#fileUploader {
+ border: 2px purple solid; 
+}
